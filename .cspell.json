@@ -15,7 +15,12 @@
     "Verwijs",
     "Todos",
     "wireframe",
-    "Savviness"
+    "Savviness",
+    "stylelint",
+    "wdth",
+    "Cinemania",
+    "Noto",
+    "wght"
   ],
   "ignorePaths": [
     "node_modules/**",
