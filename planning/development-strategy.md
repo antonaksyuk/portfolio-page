@@ -1,55 +1,53 @@
 # Project Name
 
-<!-- describe your project -->
+Create portfolio page
 
 ---
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new repo from template
+- Create a project issues
+- Clone the repo to a local machine
+- npm install
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## Home Page
 
-## user story
+### Header
 
-<!-- each issue created from this section will have the `for: user story` label -->
+Add Logo and navBar
 
-> "as a ... i can ... so that ..."
+HTML use class="logo" use class="nav-bar"
 
-<!-- write any extra notes or description -->
+CSS
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+### Hero
 
-### Logic: user story
+HTML add img add description use class="hero"
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+CSS
 
-### Interface: user story
+### About me
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+HTML Use class="main-info" add picture add description
 
-### Interaction: user story
+CSS
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### Skills
 
-### Documentation: user story
+HTML add list of icon skills use class="skills-icon"
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+CSS
+
+### My works
+
+HTML add container with list - ul use class="works-list"
+
+CSS use Flexible Box Layout
+
+### Footer
+
+HTML add list of contacts use class="footer-contacts" add contact form use
+class="contact-form"
