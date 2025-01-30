@@ -45,6 +45,8 @@ body {
 .logo-img {
   display: block;
   border-radius: 20px;
+  width: 160px;
+  height: 160px;
 }
 
 /* Styling nav */
@@ -133,7 +135,7 @@ body {
 
 /* Styling About Me section */
 .about {
-  padding: 50px 20px;
+  margin-top: 60px;
 }
 
 .about-container {
@@ -142,8 +144,17 @@ body {
   justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap;
-  gap: 40px;
+  flex-wrap: nowrap;
+  gap: 80px;
+  position: relative;
+}
+
+.about-text::before {
+  content: "";
+  height: 350px;
+  border: 2px solid rgb(53, 53, 53);
+  position: absolute;
+  left: 490px;
 }
 
 /* Styling image */
@@ -211,11 +222,22 @@ img.skill-svg {
   height: 600px;
 }
 
-.skills-list-item a img {
+.works-img {
+  border: 3px #fff;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.works-img {
+  transform: scale(1.05);
+}
+
+.works-img:hover {
   border-radius: 14px;
 }
 
 .footer {
+  height: 180px;
   background-color: rgb(83, 83, 83);
   display: flex;
   justify-content: space-around;
@@ -224,6 +246,26 @@ img.skill-svg {
 
 .footer-subscription {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.footer-headline {
+  font-size: 30px;
+  text-decoration: none;
+  color: #d7dad4;
+  font-family: "NotoSerif";
+}
+
+.footer-social-list {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-svg {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
 }
