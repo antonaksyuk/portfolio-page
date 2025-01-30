@@ -228,7 +228,7 @@ img.skill-svg {
   transition: transform 0.3s ease;
 }
 
-.works-img {
+.works-img:hover {
   transform: scale(1.05);
 }
 
